@@ -1,3 +1,4 @@
+// Variable aanmaken voor de achtergrond en kleurclasses en knoppen.
 const body = document.getElementById("body");
 const colorText = document.getElementById("color-main");
 const button = document.getElementById("button");
