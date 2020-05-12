@@ -32,7 +32,7 @@ body {
   transition: all ease-in-out 250ms;
 }
 
-.nav-open:hover {
+.nav-open {
   overflow: visible;
   border: 2px solid rgba(0, 0, 111, 0.01);
   max-width: 240px;
@@ -46,19 +46,7 @@ body {
   z-index: 100;
 }
 
-/* .color-list ul {
-  width: 160px;
-  height: 300px;
-  overflow: visible;
-  text-align: center;
-  border: 2px solid rgba(0, 0, 111, 0.1);
-  border-radius: 25px;
-  margin: 10px 0px;
-  transition: all ease-in-out 500ms;
-} */
-/* /*  */
-
-.color-list li {
+.color-list-li {
   width: 160px;
   color: white;
   font-size: 1em;
@@ -73,10 +61,6 @@ body {
   background-color: ghostwhite;
   list-style-type: none;
   transition: all ease-in-out 250ms;
-}
-
-.color-list li:hover {
-  color: ghostwhite;
 }
 
 #white,
