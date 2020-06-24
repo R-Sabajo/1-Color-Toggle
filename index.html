@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style-new.css" />
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap");
+      @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap');
     </style>
     <title>W1D5 Eindopdracht: KleurenToggle v1.2</title>
   </head>
@@ -19,8 +19,17 @@
     <br />
     <nav id="nav" class="nav-hide">
       <section id="button">&#9776;</section>
-      <ul id="color=list" class="color-list">
-        <li id="white" class="color-list-li">White</li>
+      <ul id="color-list" class="color-list">
+        <li id="white" class="color-list-li">
+          <input
+            type="radio"
+            id="select-white"
+            name="selection"
+            class="selection-radio"
+            value="white"
+          />
+          <label for="select-white">White</label>
+        </li>
         <li id="red" class="color-list-li">Red</li>
         <li id="orange" class="color-list-li">Orange</li>
         <li id="yellow" class="color-list-li">Yellow</li>

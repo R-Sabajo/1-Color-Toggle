@@ -32,6 +32,26 @@ body {
   transition: all ease-in-out 250ms;
 }
 
+input {
+  visibility: hidden;
+  float: left;
+}
+
+label {
+  cursor: pointer;
+}
+
+label:hover {
+  transform: scale(1.1);
+  transition: all ease-in-out 200ms;
+  box-shadow: 0px 0px 10px whitesmoke;
+}
+
+input:checked + label {
+  color: black;
+  background: red;
+}
+
 .nav-open {
   overflow: visible;
   border: 2px solid rgba(0, 0, 111, 0.01);
