@@ -34,7 +34,7 @@ const navClick = button.addEventListener('click', e => {
   nav.classList.toggle('nav-open');
 });
 
-button.addEventListener('mouseover', e => {
+button.addEventListener('mouseenter', e => {
   nav.classList.add('nav-open');
 });
 const navHover = button.addEventListener('mouseleave', e => {
