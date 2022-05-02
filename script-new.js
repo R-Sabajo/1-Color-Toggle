@@ -38,7 +38,7 @@ button.addEventListener('mouseenter', e => {
   nav.classList.add('nav-open');
 });
 button.addEventListener('mouseleave', e => {
-  nav.classList.remove('nav-open');
+  navHide();
 });
 
 // function to hide the nav menu, by removing the class
